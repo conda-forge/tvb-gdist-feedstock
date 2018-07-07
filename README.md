@@ -19,14 +19,16 @@ lies on the surface.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tvb-gdist-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tvb-gdist-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/tvb-gdist-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tvb-gdist-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tvb-gdist-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tvb-gdist-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/tvb-gdist-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/tvb-gdist-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/tvb-gdist-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/tvb-gdist-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/tvb-gdist-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/tvb-gdist-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tvb-gdist/badges/version.svg)](https://anaconda.org/conda-forge/tvb-gdist)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tvb-gdist/badges/downloads.svg)](https://anaconda.org/conda-forge/tvb-gdist)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-tvb--gdist-green.svg)](https://anaconda.org/conda-forge/tvb-gdist) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tvb-gdist.svg)](https://anaconda.org/conda-forge/tvb-gdist) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tvb-gdist.svg)](https://anaconda.org/conda-forge/tvb-gdist) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tvb-gdist.svg)](https://anaconda.org/conda-forge/tvb-gdist) |
 
 Installing tvb-gdist
 ====================
