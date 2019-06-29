@@ -21,13 +21,13 @@ requirements:
     - toolchain
     - python
     - setuptools
-    - numpy
+    - numpy 1.11.*
     - scipy
     - cython
   run:
     - python
     - setuptools
-    - numpy
+    - numpy >=1.11
     - scipy
     - cython
 
