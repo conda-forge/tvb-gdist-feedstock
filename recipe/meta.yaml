@@ -1,20 +1,19 @@
 {% set name = 'tvb-gdist' %}
-{% set version = '1.5.6' %}
+{% set version = '2.0.0' %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  md5: 3c6d751896a3a9c4f3c719e21c4cab15
-  sha256: cc718748b0b6f120818fce987f0cac50f2ef6f95c667c2b6269ebe14381ffb6b
+  md5: 677cd29f6584a8adb0c0f5880fcf5f43
+  sha256: 7b68e18c0c52b5a89d90b41737bb1c4bd661e6d4473bcbacc0cf80b4d46551ae
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/tvb-gdist/{{ name }}-{{ version }}.tar.gz
 
 build:
-  number: 1001
+  number: 0
   script: python setup.py install
-  skip: True  # [py>27]
 
 requirements:
   build:
