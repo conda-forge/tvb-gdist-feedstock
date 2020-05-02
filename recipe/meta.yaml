@@ -1,5 +1,5 @@
-{% set name = 'tvb-gdist' %}
-{% set version = '2.0.0' %}
+{% set name = "tvb-gdist" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name }}
@@ -7,13 +7,13 @@ package:
 
 source:
   md5: 677cd29f6584a8adb0c0f5880fcf5f43
-  sha256: 7b68e18c0c52b5a89d90b41737bb1c4bd661e6d4473bcbacc0cf80b4d46551ae
+  sha256: f5a0e7d5122e4a12fc5f81ce9505607d8dc4297dded4774aff3d8281ee78feae
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/tvb-gdist/{{ name }}-{{ version }}.tar.gz
 
 build:
   number: 0
-  script: python setup.py install
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -41,7 +41,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'Compute geodesic distances'
+  summary: Compute geodesic distances
   description: |
     The `gdist` module is a Cython interface to a C++ library |
     (http://code.google.com/p/geodesic/) for computing |
