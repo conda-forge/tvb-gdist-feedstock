@@ -181,5 +181,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bvalean](https://github.com/bvalean/)
 * [@liadomide](https://github.com/liadomide/)
 
