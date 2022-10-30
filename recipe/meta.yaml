@@ -12,7 +12,7 @@ source:
   url: https://pypi.io/packages/source/t/tvb-gdist/{{ name }}-{{ version }}.tar.gz
 
 build:
-  number: 2
+  number: 3
   script: {{ PYTHON }} setup.py install
 
 requirements:
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://github.com/the-virtual-brain/tvb-geodesic
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: Compute geodesic distances
