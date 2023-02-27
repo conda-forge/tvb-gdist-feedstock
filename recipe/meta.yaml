@@ -1,13 +1,13 @@
 {% set name = "tvb-gdist" %}
-{% set version = "2.1.1" %}
+{% set version = "2.2" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  md5: 55ab802ad2711a26bfe16383b4ee1cde
-  sha256: 2be8ba8ef881d5ce45bb353036eb09ceaecfe7522e101a7fe413677206445c00
+  md5: 9985f1c8af9a21fa2bda34a32a8104c9
+  sha256: 724bffbf985936bf474b27c33fcc9d764477e4f153edcaf6574dcc5bfa32ef33
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/tvb-gdist/{{ name }}-{{ version }}.tar.gz
 
@@ -55,3 +55,4 @@ extra:
   recipe-maintainers:
     - liadomide
     - bvalean
+    - rarescodemart
