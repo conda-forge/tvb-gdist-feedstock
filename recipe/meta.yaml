@@ -12,12 +12,13 @@ source:
   url: https://pypi.io/packages/source/t/tvb-gdist/{{ name }}-{{ version }}.tar.gz
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} setup.py install
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - python
@@ -28,7 +29,6 @@ requirements:
   run:
     - python
     - setuptools
-    - {{ pin_compatible('numpy') }}
     - scipy
     - cython
 
