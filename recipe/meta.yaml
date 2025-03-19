@@ -7,7 +7,7 @@ package:
 
 source:
   md5: 8b230e9b493322d8ea88fdffd9cd4cef
-  sha256: 724bffbf985936bf474b27c33fcc9d764477e4f153edcaf6574dcc5bfa32ef33
+  sha256: 9f8843d4fd4a945979e3f26a87da895022d45145775228fa706a43caa8965df8
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/t/tvb-gdist/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
 
