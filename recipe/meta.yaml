@@ -12,7 +12,7 @@ source:
   url: https://pypi.org/packages/source/t/tvb-gdist/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} setup.py install
 
 requirements:
